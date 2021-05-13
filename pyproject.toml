@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wasg-register"
+version = "0.1.0"
+description = "Helps register for a Wireless@SG account"
+authors = ["junyi <47441677+immanuelhume@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.5"
+pycryptodome = "^3.10.1"
+requests = "^2.25.1"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
